@@ -100,3 +100,13 @@ form button:hover {
   transform: translateY(8rem) rotateZ(20deg);
   opacity: 0;
 }
+
+@media screen and (max-width: 414px) {
+  input {
+    width: 80%;
+    text-align: center;
+  }
+  ul {
+    width: 70%;
+  }
+}
